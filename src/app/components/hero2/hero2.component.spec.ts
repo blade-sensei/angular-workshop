@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HomeThirdValueComponent } from './home-third-value.component';
+import { Hero2Component } from './hero2.component';
 
-describe('HomeThirdValueComponent', () => {
-  let component: HomeThirdValueComponent;
-  let fixture: ComponentFixture<HomeThirdValueComponent>;
+describe('Hero2Component', () => {
+  let component: Hero2Component;
+  let fixture: ComponentFixture<Hero2Component>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [HomeThirdValueComponent]
+      declarations: [Hero2Component]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(HomeThirdValueComponent);
+    fixture = TestBed.createComponent(Hero2Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

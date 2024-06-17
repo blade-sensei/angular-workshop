@@ -1,11 +1,10 @@
 
-
 <span class="hero">
     <div>
       <h1>{{ heroTitle }}</h1>
       <span>A cross-platform for making videos anywhere for all creators!</span>
       <button (click)="seeUpdate()">See Updates</button>
-      <img [src]="img" width="100%" height="200">
+      <Img src="/images/red.png">
         <button (click)="goTo('previous')">&lt;before</button>
         <button (click)="goTo('next')">next</button>
     </div>
