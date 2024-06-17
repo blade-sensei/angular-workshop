@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+
 type Feature = {
   title: string;
   imgPath: string;
@@ -12,4 +13,5 @@ type Feature = {
 export class FeatureComponent {
   @Input()
   feature: Feature | undefined;
+  downloadURL = "/download"
 }
