@@ -1,0 +1,11 @@
+<div class="content">
+  <div>navbar</div>
+  <div class="home__hero">
+    <app-hero
+      [img]="imagesPath[currentIndex]"
+      (changeToInSlider)="handleGoToInSlider($event)"
+    ></app-hero>
+  </div>
+    <app-feature [feature]="features[0]"></app-feature>
+  <div>footer</div>
+</div>
