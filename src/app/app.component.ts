@@ -6,6 +6,21 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
+  features = [
+    {
+      title: `Create extraordinary videos. Anytime. Anywhere.`,
+      imgPath: '/images/value1.png',
+    },
+    {
+      title: `A massive library of creative effects for your video`,
+      imgPath: '/images/value2.png',
+    },
+    {
+      title: `Fast, affordable, and easy way to edit, convert, sign PDFs and more - across desktop, mobile, and web.`,
+      imgPath: '/images/value3.png',
+    }
+  ];
+
   title = 'angular-tutorial';
 
   heroList = ['first', 'second'];

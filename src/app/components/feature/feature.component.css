@@ -1,0 +1,11 @@
+.feature {
+  border: solid red 1.5px;
+}
+
+.feature__image {
+  justify-content: center;
+}
+
+.feature img{
+  width: 30%;
+}
